@@ -5,3 +5,39 @@
 .main-content__subtitle{
 	font-family: 'Roboto', sans-serif;
 }
+
+body{
+	margin: 0;
+}
+
+.header{
+    display: flex;
+	justify-content: space-between;
+}
+
+.wrapper{
+	margin: auto;
+	width: 80%;
+}
+	
+.logo,.menu{
+	display: inline-block;
+	padding: 40px 0 ;
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+}
+
+.menu__item{
+	padding: 0 13px;
+}
+.menu__item:last-child{
+	padding: 0;
+}
+
+.main-section{
+	margin: auto;
+	
+}
